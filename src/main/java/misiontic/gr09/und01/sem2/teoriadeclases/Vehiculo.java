@@ -9,6 +9,10 @@ package misiontic.gr09.und01.sem2.teoriadeclases;
  */
 
 public class Vehiculo {
+    /*
+    If you don't want other classes to inherit from a class, use the final keyword:
+    If you try to access a final class, Java will generate an error:
+    */
     
     protected String marca = "Ford";        // Vehicle attribute
     private Integer modelo;
@@ -22,7 +26,12 @@ public class Vehiculo {
         }
     
     public void setModelo(int ano_Modelo) {
-         modelo = ano_Modelo;
+         this.modelo = ano_Modelo;
+         /*The set method takes a parameter (newName) and assigns it to the name variable. 
+        The this keyword is used to refer to the current object. 
+         Tal vez porque puede haber en otra clase una variable con el mismo nombre???
+         */
+         
         }
     
 }
