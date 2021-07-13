@@ -11,6 +11,7 @@ package misiontic.gr09.und01.sem2.teoriadeclases;
  */
  class Barco extends Vehiculo {
     
+    @Override
     public void honk() {                            // Vehicle method
     System.out.println("Puuuup, puuuup!");
     }
