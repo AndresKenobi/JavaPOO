@@ -5,10 +5,6 @@
  */
 package misiontic.gr09.und01.sem2.teoriadeclases;
 
-/**
- *
- * @author andre
- */
 
 /*The public keyword is an access modifier, meaning that it is used to set the access level for 
 classes, attributes, methods and constructors
